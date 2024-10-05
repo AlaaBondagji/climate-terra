@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Protection Project</title>
+    <link rel="stylesheet" href="terra.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+
+    <header>
+        <h1>Climate Terra</h1>
+               <nav>
+            <a href="#Homet">About</a>
+            <a href="#data-analysis">EAV</a>
+            <a href="#endangered-plants">endangered-plants</a>
+            <a href="#about">Contact Us</a>
+         
+        </nav>
+    </header>
+
+  
+
+ <section id="about">
+        <h2>About the Project</h2>
+        <p><b>Climate Terra is a platform that uses climate data to identify ideal locations for protecting endangered plants. By analyzing Essential Agriculture Variables (EAV) like soil moisture, temperature, and rainfall, we support sustainable farming and conservation efforts to preserve biodiversity.
+</b></p>
+    </section>
+
+      <section id="eav-intro">
+        <h2>Essential Agriculture Variables (EAV)</h2>
+        <p>Essential Agriculture Variables are critical metrics used to monitor agricultural systems and ensure sustainability. They help in understanding how various factors such as soil health, crop growth, and climate conditions impact farming.</p>
+    </section>
+
+    <section id="eav-categories">
+        <h2>Key Categories of Essential Agriculture Variables</h2>
+        <div class="eav-card">
+            <h3>Climate Variables</h3>
+            <p>Precipitation, Temperature, Solar Radiation</p>
+        </div>
+        <div class="eav-card">
+            <h3>Soil Health</h3>
+            <p>Nutrient Levels, Soil Moisture, Organic Matter</p>
+        </div>
+        <div class="eav-card">
+            <h3>Crop Monitoring</h3>
+            <p>Crop Growth, Yield Estimation, Pest Infestation</p>
+        </div>
+        <div class="eav-card">
+            <h3>Water Resources</h3>
+            <p>Irrigation Usage, Water Quality, Rainfall Patterns</p>
+        </div>
+    </section>
+
+   <section id="eav-table">
+    <h2>Essential Agriculture Variables (EAV)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Variable</th>
+                <th>Description</th>
+                <th>Importance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Soil Moisture</td>
+                <td>The amount of water present in the soil.</td>
+                <td>Critical for plant growth and irrigation management.</td>
+            </tr>
+            <tr>
+                <td>Temperature</td>
+                <td>Average temperature of the region.</td>
+                <td>Affects crop growth rates and yields.</td>
+            </tr>
+            <tr>
+                <td>Rainfall</td>
+                <td>Total precipitation in the area.</td>
+                <td>Influences irrigation needs and soil moisture levels.</td>
+            </tr>
+            <tr>
+                <td>Humidity</td>
+                <td>Amount of moisture in the air.</td>
+                <td>Impacts plant transpiration and disease spread.</td>
+            </tr>
+            <tr>
+                <td>Soil pH</td>
+                <td>Measure of acidity or alkalinity in the soil.</td>
+                <td>Affects nutrient availability and crop selection.</td>
+            </tr>
+            <tr>
+                <td>Sunlight</td>
+                <td>Amount of sunlight received by crops.</td>
+                <td>Essential for photosynthesis and growth.</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<style>
+    #eav-table {
+        margin: 20px;
+        padding: 20px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+</style>
+
+    <section id="eav-impact">
+        <h2>Impact of EAV on Crop Yields</h2>
+        <p>By monitoring essential variables like soil moisture and temperature, farmers can adjust their practices to improve crop yields. For instance, adequate irrigation during drought conditions can prevent crop failure.</p>
+    </section>
+
+    <section id="eav-recommendations">
+        <h2>Recommendations for Sustainable Agriculture</h2>
+        <ul>
+            <li>Regular monitoring of soil health to optimize nutrient usage.</li>
+            <li>Using climate data to time planting and irrigation.</li>
+            <li>Implementing crop rotation to maintain soil fertility.</li>
+            <li>Adopting water-efficient irrigation techniques.</li>
+        </ul>
+    </section>  
+    
+
+   <!-- Endangered Plants Section -->
+<section id="endangered-plants">
+    <h2>Endangered Plants and Causes of Extinction</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Plant Name</th>
+                <th>Cause of Extinction</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Rice</td>
+                <td>Climate change such as rising temperatures and flooding.</td>
+            </tr>
+            <tr>
+                <td>Coffee</td>
+                <td>Climate change, deforestation, and plant disease spread.</td>
+            </tr>
+            <tr>
+                <td>Cocoa</td>
+                <td>Climate change, desertification, and unsustainable agricultural practices.</td>
+            </tr>
+<tr>
+                <td>Cacti</td>
+                <td>Illegal trade and agricultural activities that lead to the destruction of their natural habitats.</td>
+            </tr>
+<tr>
+                <td>Timber Trees</td>
+                <td>Deforestation and overuse of timber.</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+<!-- Farming Guide Section -->
+<section id="farming-guide">
+    <h2>Farming Guide and Recommendations</h2>
+    <p>Here are some essential recommendations for protecting endangered plants and promoting sustainable farming:</p>
+    <ul>
+        <li>Choosing the right site for agriculture.</li>
+        <li>Preserving biodiversity.</li>
+        <li>Using sustainable irrigation techniques.</li>
+        <li>Reducing the use of chemical pesticides.</li>
+        <li>Soil management.</li>
+        <li>Monitoring weather and climate.</li>
+        <li>Collaborating with environmental organizations.</li>
+        <li>Monitoring growth regularly.</li>
+    </ul>
+</section>
+
+
+
+        <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Your email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Your message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="form-response" style="display: none;">
+            <p>Thank you for your message! We'll get back to you soon.</p>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent form submission
+            document.getElementById('form-response').style.display = 'block'; // Show response message
+            this.reset(); // Reset the form
+        });
+    </script>
+
+
+    <footer>
+        <p>&copy; 2024 Climate terra. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+
+
+
+</body>
+</html>
